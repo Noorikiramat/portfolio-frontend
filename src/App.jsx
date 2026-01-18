@@ -12,10 +12,10 @@ function App() {
     // له بېک-اینډ څخه د پروژو او ټولنیزو لینکونو راوړل
     const fetchData = async () => {
       try {
-        const projectRes = await axios.get('http://127.0.0.1:8000/api/projects/');
+        const projectRes = await axios.get('https://portfolio-backend-c83n.onrender.com/api/projects/');
         setProjects(projectRes.data);
         
-        const socialRes = await axios.get('http://127.0.0.1:8000/api/socials/');
+        const socialRes = await axios.get('https://portfolio-backend-c83n.onrender.com/api/socials/');
         setSocials(socialRes.data);
       } catch (error) {
         console.error("Connection error with Django!", error);
