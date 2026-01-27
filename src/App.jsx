@@ -34,7 +34,7 @@ function App() {
           <h4 className="text-[#fca61f] text-xl font-medium mb-2">Hello, I'm</h4>
           <h1 className="text-6xl font-bold mb-4">Kiramatullah <span className="text-[#fca61f]">Noori</span></h1>
           <p className="text-gray-300 text-lg mb-8 max-w-md">
-            I'm a passionate Full-Stack Developer with a degree in Computer Science, based in Helmand, Afghanistan.
+            "I am a Full-Stack Software Engineer with a passion for building scalable systems that solve real-world challenges. My expertise lies in Python, Django, and React, with a proven track record of developing complex platforms like E-Healthcare systems. Currently, I am bridging the gap between Computer Science and Sustainable Development by researching AI-driven solutions for Agriculture. My goal is to leverage Computer Vision (CNNs) to empower the farming sector with automated diagnostic tools."
           </p>
           <a href="#contact" className="bg-[#fca61f] hover:bg-[#e8951b] text-white px-10 py-3 rounded-full font-bold shadow-lg transition inline-block">
             Get In Touch
